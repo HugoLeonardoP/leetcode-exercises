@@ -6,7 +6,7 @@ public:
             x = dimensions[i][0];
             y = dimensions[i][1];
             
-            d = sqrt(x*x + y*y);
+            d = (x*x + y*y);
             a = x*y;
             if(d >= dm){
                 if(d == dm && a > am) am = a;
