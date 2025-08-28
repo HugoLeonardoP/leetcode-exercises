@@ -9,6 +9,7 @@ public:
             mp[s2].push_back(s);
         }
         vector<vector<string>> resp;
+        resp.reserve(mp.size());
         for(auto i : mp)
         {
             resp.push_back(i.second);    
